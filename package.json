@@ -1,0 +1,25 @@
+{
+    "name": "cornerstone3d-bug-1730-example",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "preview": "vite preview",
+      "coverage": "vitest run --coverage"
+    },
+    "devDependencies": {
+      "@originjs/vite-plugin-commonjs": "^1.0.3",
+      "typescript": "^5.2.2",
+      "vite": "^5.3.4"
+    },
+    "dependencies": {
+      "@cornerstonejs/adapters": "^2.19.7",
+      "@cornerstonejs/core": "^2.19.7",
+      "@cornerstonejs/dicom-image-loader": "^2.19.6",
+      "@cornerstonejs/tools": "^2.19.7",
+      "dcmjs": "^0.33.1",
+      "dicomweb-client": "^0.10.4"
+    }
+  }
+  
